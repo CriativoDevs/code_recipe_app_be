@@ -62,7 +62,7 @@ ROOT_URLCONF = "api.urls"
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",  # Frontend React
     "http://localhost:3001",  # Outras portas, se necessário
-    "https://criativodevs.github.io/code_recipe_app/",
+    "https://criativodevs.github.io/code_recipe_app",
     "https://criativodevs.github.io",
     "https://criativodevs.online",
 ]
