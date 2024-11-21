@@ -67,6 +67,7 @@ CORS_ALLOWED_ORIGINS = [
     "https://criativodevs.github.io/code_recipe_app/",
     "criativodevs.github.io",
     "criativodevs.online",
+    "https://criativodevs.github.io",
 ]
 
 CORS_ALLOW_HEADERS = [
