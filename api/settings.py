@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-p(r5m5q8&jzn*o*%anzo!piy_m@7kyr!3%(ye)^aw0!5%&@3ek
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ["*", "https://criativodevs.github.io/code_recipe_app/"]
 
 # Application definition
 
@@ -58,6 +58,7 @@ ROOT_URLCONF = "api.urls"
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",  # Frontend React
     "http://localhost:3001",  # Outras portas, se necessário
+    "https://criativodevs.github.io/code_recipe_app/",
 ]
 
 CORS_ALLOW_HEADERS = [
