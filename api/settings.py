@@ -28,8 +28,6 @@ DEBUG = True
 ALLOWED_HOSTS = [
     "*",
     "https://criativodevs.github.io/code_recipe_app/",
-    "criativodevs.github.io",
-    "criativodevs.online",
     "https://criativodevs.github.io/",
 ]
 
@@ -65,8 +63,6 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",  # Frontend React
     "http://localhost:3001",  # Outras portas, se necessário
     "https://criativodevs.github.io/code_recipe_app/",
-    "criativodevs.github.io",
-    "criativodevs.online",
     "https://criativodevs.github.io",
     "https://criativodevs.online",
 ]
